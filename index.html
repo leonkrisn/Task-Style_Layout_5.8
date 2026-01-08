@@ -1,54 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- STYLE FOR FONTS -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Task-Style_Layout_5.8</title>
-</head>
+  </head>
 
-
-
-<body>
+  <body>
     <div class="main-container">
+      <!-- NAVBAR FOR LEFT -->
+      <div class="section__little-navbar">
+        <div class="navbar__item-left">
+          <a class="navbar__item" href="#">
+            <i class="fa-solid fa-file-lines"></i>
+          </a>
+          <a class="navbar__item" href="#"
+            ><img src="./img/logo_group.png" alt="" />
+          </a>
+        </div>
         
-        
+        <!-- NAVBAR FOR RIGHT -->
+        <div class="navbar__item-right">
+          <a class="navbar__item one" href="#"
+            ><i class="fa-solid fa-phone-flip"></i>
+          </a>
+          <a class="navbar__item one" href="#"
+            ><i class="fa-solid fa-message"></i>
+          </a>
+          <a class="navbar__item one" href="#"
+            ><i class="fa-solid fa-user"></i>
+          </a>
 
-            <div class="section__little-navbar">
-                <div class="navbar__item-left">
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-file-lines"></i> </a>
-                    <a class="navbar__item" href="#"><img src="./img/logo_group.png" alt=""> </a>
-                </div>
-                
-                <div class="navbar__item-right">
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-phone-flip"></i> </a>
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-message"></i> </a>
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-user"></i> </a>
+          <span class="navbar__item-span">|</span>
 
-                    <span class="navbar__item-span">|</span>
+          <a class="navbar__item two" href="#"
+            ><i class="fa-solid fa-screwdriver-wrench"></i>
+          </a>
+          <a class="navbar__item two" href="#"
+            ><i class="fa-solid fa-square-poll-horizontal"></i>
+          </a>
+        </div>
+      </div>
 
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> </a>
-                    <a class="navbar__item" href="#"><i class="fa-solid fa-square-poll-horizontal"></i></a>
-                </div>
-                
-            </div>
-            
-
-        <header class="section__header header">
-
-            <div class="title">
-                <h2>
-                    Services And Support
-                </h2>
-            </div>
+      <header class="section__header header">
+        <div class="title">
+          <h2>Services And Support</h2>
+        </div>
 
         <!-- <div class="nav-icon">
             <div class="logo"></div>
@@ -56,46 +68,59 @@
         </div> -->
 
         <div class="navbar">
-                <a class="navbar__item" href="#">Submit a request  <i class="fa-solid fa-screwdriver-wrench"></i> </a>
-                <a class="navbar__item" href="#">Repair status  <i class="fa-solid fa-square-poll-horizontal"></i></a>
+          <a class="navbar__item three" href="#">
+            Submit a request <i class="fa-solid fa-screwdriver-wrench"></i>
+          </a>
+          <a class="navbar__item three" href="#">
+            Repair status <i class="fa-solid fa-square-poll-horizontal"></i>
+          </a>
         </div>
+      </header>
 
-        </header>
+      <div class="section__navigation part">
+        <a href="#" class="part__navigation">Brand we repair</a>
+        <a href="#" class="part__navigation">Device we repair</a>
+        <a href="#" class="part__navigation">Service prices</a>
+        <a href="#" class="part__navigation">Addresses of service centres</a>
+        <a href="#" class="part__navigation">Special prices</a>
+      </div>
 
-        <div class="section__navigation part">
-            <a href="#" class="part__navigation">Brand we repair</a>
-            <a href="#" class="part__navigation">Device we repair</a>
-            <a href="#" class="part__navigation">Service prices</a>
-            <a href="#" class="part__navigation">Addresses of service centres</a>
-            <a href="#" class="part__navigation">Special prices</a>
+      <p class="section__content-title main"> Reviews </span><br>
+
+
+      <div class="container">
+
+        <div class="section__content-left main content">
+            <!-- INPUT (CHECKBOX) FOR READMORE/HIDE BUTTON -->
+            <input type="checkbox" id="btn" />
+
+          <p class="paragraph_one">
+            We are an authorised service centre of Dell equipment repairs. Only
+            with us can you repair your Dell laptop with the official
+            manufaturer's warranty.
+            <br /><br />
+          </p>
+          <span class="dots">. . .</span>
+
+          <p class="paragraph_two">
+            We have been successfully operating since 1992 and have earned a
+            reputation as a reliable partner, as evidenced by our large number
+            of loyal customers. We take pride in the fact taht clients come to
+            us through recommendations and, in turn, recommend us to their
+            family and friends.
+          </p>
+          <br /><br />
+          <!-- <div class="read_more"> -->
+            <i class="fa-solid fa-caret-down"></i><label for="btn"></label>
+          <!-- </div> -->
+            
+          </span>
         </div>
-
-        <span class="section__content-title main">
-                Reviews
-        </span>
-            <div class="section__content-left main content">
-                <span>
-                    We are an authorised service centre of Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufaturer's warranty.
-                    <br><br>
-                    We have been successfully operating since 1992 and have earned a reputation as a reliable partner, as evidenced by our large number of loyal customers. We take pride in the fact taht clients come to us through recommendations and, in turn, recommend us to their family and friends.
-                </span>
-                <br><br>
-                <span>
-                    <a href="#">
-                        <i class="fa-solid fa-caret-down"></i>  Read More
-                    </a>
-                </span>
-            </div>
-            <div class="section__content-right main">
-                <!-- <h2>THIS IS PICTURE</h2> -->
-                <img src="./img/image.png" alt="image">
-            </div>
-        
-
-
+        <div class="section__content-right main">
+          <!-- <h2>THIS IS PICTURE</h2> -->
+          <img src="./img/image.png" alt="image" />
+        </div>
+      </div>
     </div>
-
-    
-
-</body>
+  </body>
 </html>
