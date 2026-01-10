@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 255, 251);
+  background-color: #F8F8F8;
 }
 
 /* FONT SETTING */
@@ -22,6 +22,10 @@
 /* added code start */
 body {
   width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .section__little-navbar {
   width: 100%;
@@ -159,6 +163,7 @@ body {
 
 .section__little-navbar {
   padding: 0 20px;
+  background-color: #F8F8F8;
 }
 
 .navbar__item-left img {
@@ -227,13 +232,15 @@ h2 {
 .part {
   display: flex;
   font-size: 17px;
+  overflow-x: auto;
+  padding: 16px;
 }
 
 .part__navigation {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  width: 250px;
+  min-width: 150px;
   padding-bottom: 10px;
   margin-left: 50px;
   color: black;
